@@ -4,13 +4,13 @@
 
 code.highlighter-rouge {
   background: $highlight;
-  font-family: courier, monospace;
+  font-family: Fira Code, retina;
   font-size: .875em;
 }
 
 .highlight {
   background: #fff;
-  font-family: courier, monospace;
+  font-family: Fira Code, retina;
   font-size: .875em;
   margin: 2rem auto;
 
@@ -21,7 +21,7 @@ code.highlighter-rouge {
   .highlighter-rouge & {
     background: $highlight;
   }
-  
+
   .highlight .hll { background-color: #ffffcc }
   .highlight  { background: #ffffff; }
   .highlight .c { color: #aaaaaa; font-style: italic } /* Comment */
