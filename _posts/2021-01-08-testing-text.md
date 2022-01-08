@@ -3,6 +3,7 @@ layout: post
 title: "A test for code highlighting"
 author: "Carmine Gnolo"
 categories: testing
+usemathjax: true
 ---
 
 # This is a test post
@@ -31,7 +32,7 @@ AND test = 'yes'
 
 
 
-Maybe some LaTeX, because why not \(\cfrac{x}{y}\)
+Maybe some LaTeX, because why not $$\cfrac{x}{y}\$$
 
 
 
