@@ -31,7 +31,7 @@ AND test = 'yes'
 
 
 
-Maybe some LaTeX, because why not $\cfrac{x}{y}$
+Maybe some LaTeX, because why not \(\cfrac{x}{y}\)
 
 
 
