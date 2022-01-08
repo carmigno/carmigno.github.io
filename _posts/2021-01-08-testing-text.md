@@ -36,3 +36,6 @@ Maybe some LaTeX, because why not, right?
 
 $$\cfrac{x}{y}$$
 $\cfrac{x}{y}$
+$$cfrac{x}{y}$$
+$$\alpha$$
+$\alpha$
