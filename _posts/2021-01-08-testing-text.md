@@ -32,18 +32,7 @@ AND test = 'yes'
 
 
 
-Maybe some LaTeX, because why not $$\cfrac{x}{y}$$
+Maybe some LaTeX, because why not, right?
 
-
-
-And of course some mermaid
-
-```mermaid
-graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
-```
-
-
+$$\cfrac{x}{y}$$
+$\cfrac{x}{y}$
