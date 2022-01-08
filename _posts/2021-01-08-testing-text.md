@@ -20,8 +20,6 @@ a = 1
 b = 1+1
 ```
 
-
-
 Also some sql because why not
 
 ```sql
@@ -35,7 +33,3 @@ AND test = 'yes'
 Maybe some LaTeX, because why not, right?
 
 $$\cfrac{x}{y}$$
-$\cfrac{x}{y}$
-$$cfrac{x}{y}$$
-$$\alpha$$
-$\alpha$
