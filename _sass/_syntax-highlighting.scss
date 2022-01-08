@@ -6,6 +6,9 @@ code.highlighter-rouge {
   background: $highlight;
   font-family: 'Fira Code medium';
   font-size: .875em;
+  > * {
+    padding: 0 1.5rem;
+  }
 }
 
 .highlight {
