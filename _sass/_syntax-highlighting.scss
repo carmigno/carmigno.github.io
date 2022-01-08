@@ -6,16 +6,13 @@ code.highlighter-rouge {
   background: $highlight;
   font-family: 'Fira Code medium';
   font-size: .875em;
-  > * {
-    padding: 0 1.5rem;
-  }
 }
 
 .highlight {
   font-family: 'Fira Code medium';
   font-size: .875em;
   margin: 2rem auto;
-
+  border-radius: 20px;
   background: #272822; 
   color: #f8f8f2;
 }
