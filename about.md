@@ -4,7 +4,7 @@ title: About
 ---
 
 Hello dear visitor,
-
+\noindent
 I am Carmine, the guy in the picture. I currently work as a Data Engineering Consultant for Devoteam, in Amsterdam. 
 
 <figure>
