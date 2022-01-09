@@ -22,4 +22,4 @@ If you feel like reaching out to me for remarks, suggestions, or to know what ki
 
 If the grammar in the name of the blog sounds weird to you, you may be right. I picked it as a reference to [one of my favorite movies](https://en.wikipedia.org/wiki/In_the_Mood_for_Love). Here is a small 2 minutes preview from the Criterion Collection channel on YouTube
 
-<iframe width="420" height="315" src="http://www.youtube.com/embed/ypY9OaKCfRU" frameborder="0" allowfullscreen></iframe>
+<iframe width="480" height="360" src="http://www.youtube.com/embed/ypY9OaKCfRU" frameborder="0"> </iframe>
