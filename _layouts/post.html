@@ -29,10 +29,11 @@ comments: true
     {% endif %}
     <time class="post-date dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%B %-d, %Y" }}</time>
   </div>
+  
+  {% include share-buttons.html %}
 
   {% if site.disqus.shortname %}
     {% include disqus-comments.html %}
   {% endif %}
 
-  {% include share-buttons.html %}
 </article>
