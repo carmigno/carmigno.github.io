@@ -2,7 +2,7 @@
 layout: post
 title: "A test for code highlighting"
 author: "Carmine Gnolo"
-categories: testing
+categories: Test
 usemathjax: true
 ---
 
