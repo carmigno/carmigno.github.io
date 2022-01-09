@@ -18,7 +18,7 @@ I landed on the cloud after exploring a bunch of different things: I studied Bio
 
 I like writing, so in my jobs I often end up being the guy who writes documentation for everything. I thought it was a shame to not share the results of this passion with more people, so here we are: I built this blog to address this need.
 
-If you feel like reaching out to me for remarks, suggestions, or to ask what hair products I use, [you can do it on linkedin](https://www.linkedin.com/in/gnolo/). If the grammar in the name of the blog sounds weird to you, you may be right. I picked it as a reference to [one of my favorite movies](https://en.wikipedia.org/wiki/In_the_Mood_for_Love). Here is a small 2 minutes preview from the Criterion Collection channel on YouTube
+If you feel like reaching out to me for remarks, suggestions, or to ask what hair products I use, [you can find me on linkedin](https://www.linkedin.com/in/gnolo/). If the grammar in the name of the blog sounds weird to you, you may be right. I picked it as a reference to [one of my favorite movies](https://en.wikipedia.org/wiki/In_the_Mood_for_Love). Here is a small 2 minutes preview from the Criterion Collection channel on YouTube
 <br />
 <br />
 
