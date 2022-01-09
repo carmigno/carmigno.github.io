@@ -20,12 +20,11 @@ description: >- # this means to ignore newlines until "baseurl:"
 url: "https://carmigno.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 icon: /assets/images/icon-512.png 
 github_username:  carmigno
-show_excerpts: true
-excerpt_length: 20
+show_excerpts: false
 
 social_links: 
   linkedin: gnolo
-  
+
 # Build settings
 markdown: kramdown
 
