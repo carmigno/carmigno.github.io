@@ -22,15 +22,6 @@ icon: /assets/images/icon-512.png
 github_username:  carmigno
 show_excerpts: false
 
-repository: carmigno/carmigno.github.io
-
-comments:
-  provider: "utterances"
-  utterances:
-    theme: "github-light" # "github-dark"
-    issue_term: "pathname"
-    label: "comment" # Optional - must be existing labe
-
 social_links: 
   linkedin: gnolo
 
