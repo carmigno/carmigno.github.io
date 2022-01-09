@@ -24,9 +24,6 @@ If you feel like reaching out to me for remarks, suggestions, or to ask what hai
 
 <p align="center">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ypY9OaKCfRU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</p>
-
-<p align="center">
 Isn't it beautiful?
 </p>
 <br />
