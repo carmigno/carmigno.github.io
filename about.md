@@ -27,5 +27,4 @@ If you feel like reaching out to me for remarks, suggestions, or to ask what hai
 </div>
 <div style="text-align:center;font-style:italic">Isn't it beautiful?</div>
 <br />
-<br />
 Thanks for reading this, have a great day!
