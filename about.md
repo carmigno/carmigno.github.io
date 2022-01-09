@@ -4,7 +4,7 @@ title: About
 ---
 
 Hello dear visitor,
-\noindent
+
 I am Carmine, the guy in the picture. I currently work as a Data Engineering Consultant for Devoteam, in Amsterdam. 
 
 <figure>
@@ -21,15 +21,15 @@ I like writing, so in my jobs I often end up being the guy who writes documentat
 If you feel like reaching out to me for remarks, suggestions, or to ask what hair products I use, [you can do it on linkedin](https://www.linkedin.com/in/gnolo/). If the grammar in the name of the blog sounds weird to you, you may be right. I picked it as a reference to [one of my favorite movies](https://en.wikipedia.org/wiki/In_the_Mood_for_Love). Here is a small 2 minutes preview from the Criterion Collection channel on YouTube
 <br />
 <br />
-\noindent
+
 <p align="center">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ypY9OaKCfRU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </p>
-\noindent
+
 <p align="center">
 Isn't it beautiful?
 </p>
 <br />
 <br />
-\noindent
+
 Have a great day!
