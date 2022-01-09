@@ -22,6 +22,9 @@ icon: /assets/images/icon-512.png
 github_username:  carmigno
 show_excerpts: false
 
+disqus:
+  shortname: carmigno-github-io
+
 social_links: 
   linkedin: gnolo
 
