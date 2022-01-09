@@ -16,40 +16,28 @@
 title: "In the mood for code"
 email: "gnolo@live.it"
 description: >- # this means to ignore newlines until "baseurl:"
-  "Of data, strategy, and culture."
+  Of data, strategy, and culture.
 url: "https://carmigno.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 icon: /assets/images/icon-512.png 
 github_username:  carmigno
 show_excerpts: false
 
 social_links: 
-  linkedin: gnolo
+  linkedin: "gnolo"
 
 # Build settings
-markdown: kramdown
+markdown: "kramdown"
 
 kramdown:
-  input: GFM 
-  syntax_highlighter: rouge
+  input: "GFM" 
+  syntax_highlighter: "rouge"
   syntax_highlighter_opts:
-    css_class: 'highlight'
+    css_class: "highlight"
     span:
       line_numbers: false
     block:
       line_numbers: false
       start_line: 1
-
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
 
 plugins:
   - jekyll-paginate
