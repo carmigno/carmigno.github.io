@@ -6,6 +6,8 @@ This is the repository for my website/blog. It's still a work in progress, but I
 - [ ] Add proper license
 - [ ] Rewrite the about page
 - [ ] Look for implementation of categories and tags
-- [ ] add links to social profiles
-- [ ] Add sharing buttons
+- [ ] add links to personal social profiles
 - [ ] Think of more pages to add to the navigation bar
+- [x] Check comments (not adding them)
+- [x] Add sharing buttons
+- [x] Update favicon
