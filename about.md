@@ -3,15 +3,23 @@ layout: post
 title: About
 ---
 
-This is an example of about page. Now we are going to put here my picture just to see how it gets into the page.
+Hello dear visitor,
+
+I am Carmine, the guy in the picture. I currently work as a Data Engineering Consultant for Devoteam, in Amsterdam. 
 
 <figure>
-  <img alt="Christopher Hitchens" src="./assets/images/carmine.jpg" />
+  <img alt="Carmine Gnolo" src="./assets/images/carmine.jpg" />
   <figcaption>
-    A picture of Carmine.
+    My nose got burnt while I was enjoying a beautiful afternoon of sun in the Vondelpark. I have no regrets.
   </figcaption>
 </figure>
 
-From [Wikipedia](https://en.wikipedia.org/wiki/Christopher_Hitchens):
+I landed on the cloud after exploring a bunch of different things: I studied Biomedical Engineering, I did some research in the electromagnetics field, then I played around with Cognitive Neuroscience, then I was for a few years a Data Scientist in the Healthcare field. Ultimately, I realized I really like to build nice things, so I moved to Data Engineering. I also care a lot about my teammates and I love to think about ways to leverage technology to solve strategic issues, therefore it is my goal to become a Lead once I have enough experience. 
 
->Christopher Eric Hitchens (13 April 1949 – 15 December 2011) was an Anglo-American author, columnist, essayist, orator, religious and literary critic, social critic, and journalist. Hitchens was the author, co-author, editor or co-editor of over 30 books, including five collections of essays on culture, politics and literature. A staple of public discourse, his confrontational style of debate made him both a lauded intellectual and a controversial public figure. He contributed to New Statesman, The Nation, The Weekly Standard, The Atlantic, London Review of Books, The Times Literary Supplement, Slate, Free Inquiry and Vanity Fair.
+I like writing, so in my jobs I often end up being the guy who writes documentation for everything. I thought it was a shame to not share the results of this passion with more people, so here we are: I built this blog to address this need.
+
+If you feel like reaching out to me for remarks, suggestions, or to know what kind of products I use in my hair, [you can do it on linkedin](https://www.linkedin.com/in/gnolo/).
+
+If the grammar in the name of the blog sounds weird to you, you may be right. I picked it as a reference to [one of my favorite movies](https://en.wikipedia.org/wiki/In_the_Mood_for_Love). Here is a small 2 minutes preview from the Criterion Collection channel on YouTube
+
+<iframe width="420" height="315" src="http://www.youtube.com/embed/ypY9OaKCfRU" frameborder="0" allowfullscreen></iframe>
