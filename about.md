@@ -25,7 +25,7 @@ If you feel like reaching out to me for remarks, suggestions, or to ask what hai
 <div class="video-container">
 <iframe src="https://www.youtube.com/embed/ypY9OaKCfRU"  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
-Isn't it beautiful?
+<div style="text-align:center;">*Isn't it beautiful?*</div>
 <br />
 <br />
 Thanks for reading this, have a great day!
