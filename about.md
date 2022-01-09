@@ -10,7 +10,7 @@ I am Carmine, the guy in the picture. I currently work as a Data Engineering Con
 <figure>
   <img alt="Carmine Gnolo" src="./assets/images/carmine.jpg" style="width:50%"/>
   <figcaption>
-    My nose got burnt while I was enjoying a beautiful afternoon <br />of sun at the Vondelpark. I have no regrets.
+    My nose got burnt while I was enjoying a beautiful <br />afternoon of sun at the Vondelpark. I regret nothing.
   </figcaption>
 </figure>
 
