@@ -2,7 +2,13 @@
 layout: post
 title: "A test for code highlighting"
 author: "Carmine Gnolo"
-categories: Test
+date: 2021-01-08
+tags: test, testing, syntax
+summary: |
+    This is a summary of what ends up in the test page
+categories: 
+    - Category 1
+    - Category 2
 usemathjax: true
 ---
 
