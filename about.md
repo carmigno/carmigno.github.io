@@ -9,6 +9,7 @@ I am Carmine, the guy in the picture. I currently work as a Data Engineering Con
 
 <figure>
   <img alt="Carmine Gnolo" src="./assets/images/carmine.jpg" style="width:50%"/>
+  <figcaption>
     My nose got burnt while I was enjoying a beautiful afternoon 
     of sun at the Vondelpark. I have no regrets.
   </figcaption>
@@ -19,8 +20,8 @@ I landed on the cloud after exploring a bunch of different things: I studied Bio
 I like writing, so in my jobs I often end up being the guy who writes documentation for everything. I thought it was a shame to not share the results of this passion with more people, so here we are: I built this blog to address this need.
 
 If you feel like reaching out to me for remarks, suggestions, or to know what kind of products I use in my hair, [you can do it on linkedin](https://www.linkedin.com/in/gnolo/). If the grammar in the name of the blog sounds weird to you, you may be right. I picked it as a reference to [one of my favorite movies](https://en.wikipedia.org/wiki/In_the_Mood_for_Love). Here is a small 2 minutes preview from the Criterion Collection channel on YouTube:
-</br>
-</br>
+&nbsp;
+&nbsp;
 <p align="center">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ypY9OaKCfRU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </p>
