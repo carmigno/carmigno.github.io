@@ -21,15 +21,18 @@
   </head>
   <body>
 
-    {% if page.layout == 'home' %}
-      <a href="#main" class="skip-navigation">
-        Skip to list of posts
-      </a>
-    {% else %}
-      <a href="#main" class="skip-navigation">
-        Skip to content
-      </a>
-    {% endif %}
+    {% unless site.hide_skip %}
+      {% if page.layout == 'home' %}
+        <a href="#main" class="skip-navigation">
+          Skip to list of posts
+        </a>
+      {% else %}
+        <a href="#main" class="skip-navigation">
+          Skip to content
+        </a>
+      {% endif %}
+    {% endunless %}
+
 
     {{ content }}
 
