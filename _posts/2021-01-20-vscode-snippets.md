@@ -3,7 +3,7 @@ layout: post
 title: "VSCode snippets as a knowledge base"
 author: "Carmine Gnolo"
 usemathjax: true
-hidden: true
+hidden: false
 ---
 
 In this article I am going to talk about the time in which I was working as data scientist and analyst, having to deal with a bunch of databases that had no real documentation for their 
