@@ -3,7 +3,7 @@ layout: post
 title: "A test for code highlighting"
 author: "Carmine Gnolo"
 usemathjax: true
-hidden: false
+hidden: true
 ---
 
 I want to see how it looks like online. I have noticed that the theme is built around the concept of centered titles, and here it comes from the head settings. Therefore, I should not use the # level title, but only the further ones. 
@@ -28,3 +28,5 @@ AND test = 'yes'
 
 Maybe some LaTeX, because why not, right?
 $$\cfrac{x}{y}$$
+
+https://carmigno.github.io/2021/01/08/testing-text.html
