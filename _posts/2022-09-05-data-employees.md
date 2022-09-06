@@ -40,12 +40,13 @@ We leave an empty column for you to fill with the level of skill of your team.
 
 The table is thought to be read like this: 
 1. Fill the column with the level of knowledge or involvement of your team with a specific technology
-2. Focus only on the row you have filled in the previous step, to consider only the tech in your stack
+2. Focus only on the row you have filled in the previous step, consider only the tech in your stack
 3. Compare your team's column with the other one: pick the job title that is closest to your team's column
+  * If you notice that you cannot decide between multiple roles, then your team is between those
 4. Find which skills are creating issues
   * The tech skills that are available in your team but are not listed in the definition are the ones that are going to be difficult. So now you know.
   * The tech skills that are marked with a `*` symbol are also in general less common
-  * The tech skills that are not on the list, are in general less common in the data market. 
+  * The tech skills that are not on the list, are in general less common in the data market.
 
 Please note: we assume that Python and Git knowledge is fundamental and needed by everyone involved, so we don't include it in the table. 
 
