@@ -48,7 +48,7 @@ The table is thought to be read like this:
   * The tech skills that are marked with a `*` symbol are also in general less common
   * The tech skills that are not on the list, are in general less common in the data market.
 
-Please note: we assume that Python and Git knowledge is fundamental and needed by everyone involved, so we don't include it in the table. 
+Please note: we assume that the knowledge of Python and Git is fundamental for everyone involved, so we don't include it in the table.
 
 | **Skills** / **Roles**                              | Data engineer | Analytics Engineer | Data Analyst | Data Scientist | ML Engineer | Cloud/DevOps Engineer | **Your team** |
 | --------------------------------------------------- | ------------- | ------------------ | ------------ | -------------- | ----------- | --------------------- | ------------- |
