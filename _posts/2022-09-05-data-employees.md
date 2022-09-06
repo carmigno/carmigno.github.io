@@ -80,6 +80,39 @@ Please note: we assume that the knowledge of Python and Git is fundamental for e
 | Snowflake/DWH                                       | +             | ++                 | +            | +              | +           |                       |               |
 | Spark*                                              | +             |                    | +            | ++             | ++          |                       |               |
 
+## Example
+
+To clarify the usage, I will make an example. I took the whole table, filled the column for my team, 
+turned to bold the values in the columns that are the same as my team, then ordered all the rows by my team column's content, descending:
+
+| **Skills** / **Roles**                              | Data engineer | Analytics Engineer | Data Analyst | Data Scientist | ML Engineer | Cloud/DevOps Engineer | **Your team** |
+| --------------------------------------------------- | ------------- | ------------------ | ------------ | -------------- | ----------- | --------------------- | ------------- |
+| CI/CD pipelines (GitHub, Gitlab, Concourse, ArgoCD) | +             |                    |              | +              | +           | **++**                | ++            |
+| Infrastructure as code (Terraform/Ansible/Chef)     | +             |                    |              |                |             | **++**                | ++            |
+| AWS/Azure/GCP (General platform knowledge)          | **++**        |                    | +            |                | +           | **++**                | ++            |
+| Cloud data storage and infrastructure               | **++**        |                    |              |                |             | +                     | ++            |
+| Kafka/Data Streaming*                               | **++**        |                    |              | +              | +           |                       | ++            |
+| Kubernetes                                          |               |                    |              |                |             | **++**                | ++            |
+| ELT/ETL pipelines                                   | ++            | **+**              |              | **+**          | **+**       |                       | +             |
+| Bash                                                | **+**         |                    |              | **+**          | **+**       | **+**                 | +             |
+| Dbt                                                 | **+**         | ++                 |              |                | **+**       |                       | +             |
+| Docker                                              | **+**         |                    |              | **+**          | **+**       | **+**                 | +             |
+| Git (administration)                                | **+**         |                    |              |                |             | ++                    | +             |
+| SQL                                                 | **+**         | ++                 | ++           | **+**          | **+**       |                       | +             |
+| Snowflake/DWH                                       | **+**         | ++                 | **+**        | **+**          | **+**       |                       | +             |
+| Spark*                                              | **+**         |                    | **+**        | ++             | ++          |                       | +             |
+| Golang*                                             |               |                    |              |                |             | **+**                 | +             |
+
+You can immediately see a problem here: two main skills are only in the Cloud/DevOps column, and two are exclusive to the Data Engineering column. 
+We can still see that based on the `+` skills, our team is a Data Engineering team, but it is including skills that are not typical of those professionals:
+heavy involvement in CI/CD and infrastructure as code, Kubernetes, and basic knowledge of Golang, that is already rare by itself. Among the data engineering skills,
+we can see that there are some less common ones: Kafka is the most important as it is marked as heavy involvement. 
+
+This means that: 
+* I should look for a Data Engineer
+* The knowledge of Kafka is less available, but if someone has this knowledge it will be a Data Engineer, fitting the other skills
+* The knowledge of Kubernetes, CI/CD, and Golang will be rare to find combined with the other Data Engineering skills, this makes it very hard to fill the position
+  * I may have to either compromise and pick someone who only partially fits the profile or generally less skilled, or reorganize the team - for instance adding a Cloud/DevOps Engineer to it
 
 # References
 * [DP-203 study guide](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4MbYT)
