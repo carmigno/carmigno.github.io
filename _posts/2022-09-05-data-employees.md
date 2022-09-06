@@ -29,28 +29,29 @@ With this post, we want to offer you a simple tool to help you understand better
 
 The problems we want to solve here are three: 
 1. What is the **best description** of what my team currently does?
-2. What are the **skills** that are available in my team but are **uncommon** among professionals with the same job description?
-3. If I hire someone with a specific job description, what can I expect them to be familiar with, and in what measure?
+2. What are the **tech skills** that are available in my team but are **uncommon** among professionals with the same job description?
+3. If I hire someone with a specific job description, what can I expect them to be **familiar with**, and in what measure?
 
-The skills table will help you with this. In the first column, we present a list of typical data-related technical skills, and in the other
-columns, we show the level of the skill typically associated with a specific job title: `++` for expert or daily involvement, `+` basic knowledge
+The tech skills table will help you with this. In the first column, we present a list of typical data-related technical skills, and in the other
+columns, we show the level of the skill typically associated with a specific job title: `++` for deep knowledge or daily involvement, `+` basic knowledge
 or occasional involvement, and an empty spot for skills that are not related to that job title. 
 
 We leave an empty column for you to fill with the level of skill of your team. 
 
-The table is thought to be read like this: 
-1. Fill the column with the level of knowledge or involvement of your team with a specific technology
-2. Focus only on the row you have filled in the previous step, consider only the tech in your stack
-3. Compare your team's column with the other one: pick the job title that is closest to your team's column
+The table is thought to be used like this: 
+1. Copy the table in a text editor (with no wrapping)
+2. Fill the column with the level of knowledge or involvement of your team with a specific technology
+3. Delete the rows you did not fill in, to consider only the tech in your stack
+4. Compare your team's column with the other ones: pick the data role that is closest to your team
   * If you notice that you cannot decide between multiple roles, then your team is between those
 4. Find which skills are creating issues
-  * The tech skills that are available in your team but are not listed in the definition are the ones that are going to be difficult. So now you know.
-  * The tech skills that are marked with a `*` symbol are also in general less common
-  * The tech skills that are not on the list, are in general less common in the data market.
+  * The tech skills that are available in your team but are not listed in the role you picked, are the ones that are going to be difficult. So now you know.
+  * The tech skills that are marked with a `*` symbol are in general rarer
+  * The tech skills that are not on the list, are in general rarer in the data market.
 
-Please note: we assume that the knowledge of Python and Git is fundamental for everyone involved, so we don't include it in the table.
+**Please note**: we assume that the knowledge of Python and Git is fundamental for everyone involved, so we don't include it in the table.
 
-| **Skills** / **Roles**                              | Data engineer | Analytics Engineer | Data Analyst | Data Scientist | ML Engineer | Cloud/DevOps Engineer | **Your team** |
+| **Tech skills** / **Roles**                         | Data engineer | Analytics Engineer | Data Analyst | Data Scientist | ML Engineer | Cloud/DevOps Engineer | **Your team** |
 | --------------------------------------------------- | ------------- | ------------------ | ------------ | -------------- | ----------- | --------------------- | ------------- |
 | AWS/Azure/GCP (General platform knowledge)          | ++            |                    | +            |                | +           | ++                    |               |
 | Bash                                                | +             |                    |              | +              | +           | +                     |               |
@@ -81,11 +82,13 @@ Please note: we assume that the knowledge of Python and Git is fundamental for e
 | Spark*                                              | +             |                    | +            | ++             | ++          |                       |               |
 
 ## Example
+It sounds more complicated than it should, let's make an example to clarify. 
+At our company X, we have a Data Engineering team. We want to increase capacity, so we decide to hire a new unit. 
+We want to use the skills table to help us have a better perspective on the hiring process.
+To do so, we copy the whole table, fill the column for our team, turn to bold the values in the columns that match, 
+then sort the rows by the team column's content, descending:
 
-To clarify the usage, I will make an example. I took the whole table, filled the column for my team, 
-turned to bold the values in the columns that are the same as my team, then ordered all the rows by my team column's content, descending:
-
-| **Skills** / **Roles**                              | Data engineer | Analytics Engineer | Data Analyst | Data Scientist | ML Engineer | Cloud/DevOps Engineer | **Your team** |
+| **Skills** / **Roles**                              | Data Engineer | Analytics Engineer | Data Analyst | Data Scientist | ML Engineer | Cloud/DevOps Engineer | **Your Team** |
 | --------------------------------------------------- | ------------- | ------------------ | ------------ | -------------- | ----------- | --------------------- | ------------- |
 | CI/CD pipelines (GitHub, Gitlab, Concourse, ArgoCD) | +             |                    |              | +              | +           | **++**                | ++            |
 | Infrastructure as code (Terraform/Ansible/Chef)     | +             |                    |              |                |             | **++**                | ++            |
@@ -103,16 +106,27 @@ turned to bold the values in the columns that are the same as my team, then orde
 | Spark*                                              | **+**         |                    | **+**        | ++             | ++          |                       | +             |
 | Golang*                                             |               |                    |              |                |             | **+**                 | +             |
 
-You can immediately see a problem here: two main skills are only in the Cloud/DevOps column, and two are exclusive to the Data Engineering column. 
-We can still see that based on the `+` skills, our team is a Data Engineering team, but it is including skills that are not typical of those professionals:
-heavy involvement in CI/CD and infrastructure as code, Kubernetes, and basic knowledge of Golang, that is already rare by itself. Among the data engineering skills,
-we can see that there are some less common ones: Kafka is the most important as it is marked as heavy involvement. 
+You can immediately see a problem here: our team is between Data Engineering and Cloud/DevOps Engineering. Which one should we pick? 
+
+We deliberately don't establish a numeric rule to decide: this is a tool to give a clearer perspective on the situation, and it cannot 
+substitute the hiring manager in making this decision.
+
+In our case, we know that the team is already established as a Data Engineering team, the members are happy with that title, and the
+`+` skills do match the ones we would expect from a Data Engineering team. 
+
+We can also see, though, that our team skills include several that are uncommon among Data Engineers: 
+* Deep knowledge of Kubernetes
+* Deep knowledge of CI/CD
+* Deep knowledge of Infrastructure as code
+* Familiarity with Golang (already rare by itself)
+
+Among the data engineering skills, we can see that one of the `++` ones, Kafka, is marked as rare. 
 
 This means that: 
 * I should look for a Data Engineer
-* The knowledge of Kafka is less available, but if someone has this knowledge it will be a Data Engineer, fitting the other skills
-* The knowledge of Kubernetes, CI/CD, and Golang will be rare to find combined with the other Data Engineering skills, this makes it very hard to fill the position
-  * I may have to either compromise and pick someone who only partially fits the profile or generally less skilled, or reorganize the team - for instance adding a Cloud/DevOps Engineer to it
+* The knowledge of Kafka is less available, but if someone has this knowledge it will be a Data Engineer, who will have a higher probability of also matching the other required skills
+* The knowledge of Kubernetes, CI/CD, and Golang will be rare to find combined with the other Data Engineering skills, and this makes it very hard to fill the position
+  * I may have to either compromise and pick someone who only partially fits the profile or who is less skilled, or reorganize the team - for instance adding a Cloud/DevOps Engineer to it
 
 # References
 * [DP-203 study guide](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4MbYT)
