@@ -5,6 +5,8 @@
 
 $asset_url: '{{ '/assets' | absolute_url }}';
 
+$content-width: 100%;
+
 @import 
   "reset",
   "variables",
