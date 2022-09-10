@@ -25,20 +25,20 @@ Picking the wrong label for your team has many negative consequences:
 Now that you can see why and how this can go very, very wrong, let's discuss what to do to fix it. 
 
 ## The role comparison table
-With this post, we want to offer you a simple tool to help you understand better your team and your data needs. 
+With this post, we want to offer you a simple tool to help you better understand your team and the data professionals that you need. 
 
 The problems we want to solve here are three: 
 1. What is the **best description** of what my team currently does?
 2. What are the **tech skills** that are available in my team but are **uncommon** among professionals with the same job description?
 3. If I hire someone with a specific job description, what can I expect them to be **familiar with**, and in what measure?
 
-The tech skills table will help you with this. In the first column, we present a list of typical data-related technical skills, and in the other
+The tech skills table is designed to help you on those pitfalls. In the first column, we present a list of typical data-related technical skills, and in the other
 columns, we show the level of the skill typically associated with a specific job title: `++` for deep knowledge or daily involvement, `+` basic knowledge
 or occasional involvement, and an empty spot for skills that are not related to that job title. 
 
 We leave an empty column for you to fill with the level of skill of your team. 
 
-The table is thought to be used like this: 
+The table is thought to be used as below: 
 1. Copy the table in a text editor (with no wrapping)
 2. Fill the column with the level of knowledge or involvement of your team with a specific technology
 3. Delete the rows you did not fill in, to consider only the tech in your stack
@@ -65,7 +65,7 @@ The table is thought to be used like this:
 | Deployment of ML models as webapps (R-Shiny, Flask) | +             |                    |              | +              | ++          |                       |               |
 | Docker                                              | +             |                    |              | +              | +           | +                     |               |
 | ELT/ETL pipelines                                   | ++            | +                  |              | +              | +           |                       |               |
-| Explorative data analysis                           |               | +                  |              | ++             | +           |                       |               |
+| Exploratory data analysis                           |               | +                  |              | ++             | +           |                       |               |
 | Git (administration)                                | +             |                    |              |                |             | ++                    |               |
 | Golang*                                             |               |                    |              |                |             | +                     |               |
 | Hadoop*                                             | ++            |                    |              | +              | +           |                       |               |
@@ -120,12 +120,12 @@ We can also see, though, that our team skills include several that are uncommon 
 * Deep knowledge of Infrastructure as code
 * Familiarity with Golang (already rare by itself)
 
-Among the data engineering skills, we can see that one of the `++` ones, Kafka, is marked as rare. 
+Among the data engineering skills, Kafka (marked with ++) is considered rare. 
 
 This means that: 
 * I should look for a Data Engineer
 * The knowledge of Kafka is less available, but if someone has this knowledge it will be a Data Engineer, who will have a higher probability of also matching the other required skills
-* The knowledge of Kubernetes, CI/CD, and Golang will be rare to find combined with the other Data Engineering skills, and this makes it very hard to fill the position
+* The knowledge of Kubernetes, CI/CD, and Golang will be rare to find combined with the other Data Engineering skills, and this makes it pretty hard to fill the position
   * I may have to either compromise and pick someone who only partially fits the profile or who is less skilled, or reorganize the team - for instance adding a Cloud/DevOps Engineer to it
 
 # References
