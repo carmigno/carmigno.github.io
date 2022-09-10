@@ -14,13 +14,13 @@ The responsibilities of a team grow organically with the Data Platform they work
 
 Picking the **wrong label** for your team has many **negative consequences**:
 * Trying to recruit a new member, both you and the recruiter will receive many job **applications that don't fit your needs** and will struggle to find anyone to fill the position
-  *This wastes time from both sides and deteriorates the relationship between the hiring manager and the recruiter*
+    *This wastes time from both sides and deteriorates the relationship between the hiring manager and the recruiter*
 * If you don't know what is the **rarest skill** for that job description, you will not give it the right weight when picking a new recruit
-  *If you need and manage to find a Data Engineer who knows Kubernetes, maybe you should think twice before letting them know*
+    *If you need and manage to find a Data Engineer who knows Kubernetes, maybe you should think twice before letting them know*
 * The probability to **hire the wrong person** will be higher
-  *They may find out the job was not what they expected and leave after an expensive recruiting and onboarding process. Or they may stay and opt for silent quitting.*
+    *They may find out the job was not what they expected and leave after an expensive recruiting and onboarding process. Or they may stay and opt for silent quitting.*
 * Other **teams will not understand** clearly what are the responsibilities of your team and what they can expect from them
-  *Your team will not be added to the right meetings, decisions will be taken without involving them*
+    *Your team will not be added to the right meetings, decisions will be taken without involving them*
 * It will be harder for the team members to understand **in which direction they should improve**
 
 Now that you can see why and how this can go very, very wrong, let's discuss what to do to fix it. 
@@ -55,7 +55,7 @@ The table is thought to be used as below:
 * We assume that the knowledge of **Python** and **Git** is fundamental for everyone involved, so we don't include it in the table.
 
 | **Tech skills** / **Roles**                         | Data engineer | Analytics Engineer | Data Analyst | Data Scientist | ML Engineer | Cloud/DevOps Engineer | **Your team** |
-| --------------------------------------------------- | ------------- | ------------------ | ------------ | -------------- | ----------- | --------------------- | ------------- |
+| --------------------------------------------------- | :-----------: | :----------------: | :----------: | :------------: | :---------: | :-------------------: | :-----------: |
 | AWS/Azure/GCP (General platform knowledge)          | ++            | +                  | +            | +              | +           | ++                    |               |
 | Bash                                                | +             |                    |              | +              | +           | ++                    |               |
 | Business knowledge                                  |               | +                  | ++           | +              | +           |                       |               |
@@ -92,7 +92,7 @@ To do so, we copy the whole table, fill the column for our team, turn to bold th
 then sort the rows by the team column's content, descending:
 
 | **Skills** / **Roles**                              | Data Engineer | Analytics Engineer | Data Analyst | Data Scientist | ML Engineer | Cloud/DevOps Engineer | **Your Team** |
-| --------------------------------------------------- | ------------- | ------------------ | ------------ | -------------- | ----------- | --------------------- | ------------- |
+| --------------------------------------------------- | :-----------: | :----------------: | :----------: | :------------: | :---------: | :-------------------: | :-----------: |
 | CI/CD pipelines (GitHub, Gitlab, Concourse, ArgoCD) | +             |                    |              | +              | +           | **++**                | ++            |
 | Infrastructure as code (Terraform/Ansible/Chef)     | +             |                    |              |                |             | **++**                | ++            |
 | AWS/Azure/GCP (General platform knowledge)          | **++**        |                    | +            |                | +           | **++**                | ++            |
