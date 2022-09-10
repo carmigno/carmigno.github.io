@@ -7,10 +7,9 @@ hidden: true
 ---
 # Which data specialist do I need?
 
-Identity crises are a surprisingly common challenge in data teams. **Are we data engineers? Are we analytics engineers? Who knows.**
-The responsibilities of a team grow organically with the Data Platform they work on, and they often end up not perfectly aligned with any industry standard. 
+Identity crises are a surprisingly common challenge in data teams. **Are we data engineers? Are we analytics engineers? Who knows.** The responsibilities of a team grow organically with the Data Platform they work on, and they often end up not perfectly aligned with any industry standard. With this post, we want to offer you a simple tool to help you better understand your team and the data professionals that you need. 
 
-![A recruiter seeing a request for a Data Analyst with two years Kubernetes experience](https://images.pexels.com/photos/4458420/pexels-photo-4458420.jpeg?cs=srgb&dl=pexels-yan-krukov-4458420.jpg&fm=jpg)
+<img src="https://images.pexels.com/photos/4458420/pexels-photo-4458420.jpeg?cs=srgb&dl=pexels-yan-krukov-4458420.jpg&fm=jpg" style="zoom:10%;" />
 
 Picking the **wrong label** for your team has many **negative consequences**:
 * Trying to recruit a new member, both you and the recruiter will receive many job **applications that don't fit your needs** and will struggle to find anyone to fill the position
@@ -26,7 +25,7 @@ Picking the **wrong label** for your team has many **negative consequences**:
 Now that you can see why and how this can go very, very wrong, let's discuss what to do to fix it. 
 
 ## The role comparison table
-With this post, we want to offer you a simple tool to help you better understand your team and the data professionals that you need. 
+But how are we going to address this issue? Using one of the oldest tricks from the engineering book, a reference table. 
 
 The problems we want to solve here are three: 
 1. What is the **best description** of what my team currently does?
@@ -44,14 +43,18 @@ The table is thought to be used as below:
 2. Fill the column with the level of knowledge or involvement of your team with a specific technology
 3. Delete the rows you did not fill in, to consider only the tech in your stack
 4. Compare your team's column with the other ones: pick the data role that is closest to your team
-  * If you notice that you cannot decide between multiple roles, then your team is between those
+     * If you notice that you cannot decide between multiple roles, then your team is between those
 5. Find which skills are creating issues
-  * The tech skills that are available in your team but are not listed in the role you picked, are the ones that are going to be difficult. So now you know.
-  * The tech skills that are marked with a `*` symbol are in general uncommon
-  * The tech skills that are not on the list, are in general uncommon in the data market.
+
+     * The tech skills that are available in your team but are not listed in the role you picked, are the ones that are going to be difficult. So now you know.
+
+     * The tech skills that are marked with a `*` symbol are in general uncommon
+
+     * The tech skills that are not on the list, are in general uncommon in the data market.
+
 
 **Assumptions for the table**
-* We consider an environment in which the teams are big enough to have the roles as cleanly separated as possible (e.g. a big corporate environment). In smaller companies, the roles overlap, but having them divided in the table will help you understand the combinations between the roles;
+* We consider an environment in which the teams **are big enough to have the roles as clearly separated as possible** (e.g. a big corporate environment). In smaller companies, the roles overlap, but having them divided in the table will help you understand how they combine together;
 * We assume that the knowledge of **Python** and **Git** is fundamental for everyone involved, so we don't include it in the table.
 
 | **Tech skills** / **Roles**                         | Data engineer | Analytics Engineer | Data Analyst | Data Scientist | ML Engineer | Cloud/DevOps Engineer | **Your team** |
@@ -111,11 +114,9 @@ then sort the rows by the team column's content, descending:
 
 You can immediately see a problem here: our team is between Data Engineering and Cloud/DevOps Engineering. Which one should we pick? 
 
-We deliberately don't establish a numeric rule to decide: this is a tool to give a clearer perspective on the situation, and it cannot 
-substitute the hiring manager in making this decision.
+We deliberately don't establish a numeric rule to decide: this is a tool to give a clearer perspective on the situation, and it cannot substitute the hiring manager in making this decision.
 
-In our case, we know that the team is already established as a Data Engineering team, the members are happy with that title, and the
-`+` skills do match the ones we would expect from a Data Engineering team. 
+In our case, we know that the team is already established as a Data Engineering team, the members are happy with that title, and the `+` skills do match the ones we would expect from a Data Engineering team. 
 
 We can also see, though, that our team skills include several that are uncommon among Data Engineers: 
 * Deep knowledge of Kubernetes
