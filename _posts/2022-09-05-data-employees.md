@@ -5,11 +5,12 @@ author: "Carmine Gnolo"
 usemathjax: true
 hidden: true
 ---
-
 # Which data specialist do I need?
 
 Identity crises are a surprisingly common challenge in data teams. **Are we data engineers? Are we analytics engineers? Who knows.**
 The responsibilities of a team grow organically with the Data Platform they work on, and they often end up not perfectly aligned with any industry standard. 
+
+![A recruiter seeing a request for a Data Analyst with two years Kubernetes experience](https://images.pexels.com/photos/4458420/pexels-photo-4458420.jpeg?cs=srgb&dl=pexels-yan-krukov-4458420.jpg&fm=jpg)
 
 Picking the **wrong label** for your team has many **negative consequences**:
 * Trying to recruit a new member, both you and the recruiter will receive many job **applications that don't fit your needs** and will struggle to find anyone to fill the position
