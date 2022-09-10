@@ -7,11 +7,20 @@ hidden: true
 ---
 # Which data specialist do I need?
 
-Identity crises are a surprisingly common challenge in data teams. **Are we data engineers? Are we analytics engineers? Who knows.** The responsibilities of a team grow organically with the Data Platform they work on, and they often end up not perfectly aligned with any industry standard. With this post, we want to offer you a simple tool to help you better understand your team and the data professionals that you need. 
+Identity crises are a surprisingly common challenge in data teams. **Are we data engineers? Are we analytics engineers? Who knows.** The responsibilities of a team grow organically with the Data Platform they work on, and they often end up not perfectly aligned with any industry standard. 
 
-<img src="https://images.pexels.com/photos/4458420/pexels-photo-4458420.jpeg?cs=srgb&dl=pexels-yan-krukov-4458420.jpg&fm=jpg" style="zoom:10%;" />
+Existential angst though, while it gave us quite a few masterpieces in art and literature, is not going to help you implement the data intelligence strategy of your dreams.
 
-Picking the **wrong label** for your team has many **negative consequences**:
+I know it sounds dark, but hey, great news, **we are here to help**! I will explain in this article the method we came up with to cope with those issues and **find your data-self**, in a cheaper and less time-consuming way than spending three months backpack-traveling!
+
+<img src="https://images.pexels.com/photos/4458420/pexels-photo-4458420.jpeg?cs=srgb&dl=pexels-yan-krukov-4458420.jpg&fm=jpg" style="zoom:8%;" />
+
+​												 	*A recruiter being asked for a Data Analyst with Kubernetes knowledge.*
+
+As a first step, we need to understand well the challenge we are approaching, and the motivations that would justify putting any effort into a better understanding of the team and calling it by the right name.
+
+Let's have a look at the **negative consequences** that picking the **wrong label** can have for your team:
+
 * Trying to recruit a new member, both you and the recruiter will receive many job **applications that don't fit your needs** and will struggle to find anyone to fill the position
     *This wastes time from both sides and deteriorates the relationship between the hiring manager and the recruiter*
 * If you don't know what is the **rarest skill** for that job description, you will not give it the right weight when picking a new recruit
@@ -22,19 +31,17 @@ Picking the **wrong label** for your team has many **negative consequences**:
     *Your team will not be added to the right meetings, decisions will be taken without involving them*
 * It will be harder for the team members to understand **in which direction they should improve**
 
-Now that you can see why and how this can go very, very wrong, let's discuss what to do to fix it. 
+Now that you can see why and how this can go very, very wrong, we can move on to fixing it.
 
 ## The role comparison table
-But how are we going to address this issue? Using one of the oldest tricks from the engineering book, a reference table. 
+How are we going to address this issue? Using one of the oldest tricks from the engineering book, a **reference table**. 
 
 The problems we want to solve here are three: 
 1. What is the **best description** of what my team currently does?
 2. What are the **tech skills** that are available in my team but are **uncommon** among professionals with the same job description?
 3. If I hire someone with a specific job description, what can I expect them to be **familiar with**, and in what measure?
 
-The tech skills table is designed to help you with those pitfalls. In the first column, we present a list of **typical data-related technical skills**, and in the other
-columns, we show the level of the skill typically associated with a specific job title: `++` for deep knowledge or daily involvement, `+` basic knowledge
-or occasional involvement, and an empty spot for skills that are not related to that job title. 
+The tech skills table is designed to help you with those pitfalls. In the first column, we present a list of **typical data-related technical skills**, and in the other columns, we show the level of the skill typically associated with a specific job title: `++` for deep knowledge or daily involvement, `+` basic knowledge or occasional involvement, and an empty spot for skills that are not related to that job title. We decided on purpose to go for symbols instead of more detailed descriptions, in order to minimize the complexity of the method.  
 
 We leave an empty column for you to fill with the level of skill of your team. 
 
@@ -52,10 +59,10 @@ The table is thought to be used as below:
 
      * The tech skills that are not on the list, are in general uncommon in the data market.
 
-
 **Assumptions for the table**
+
 * We consider an environment in which the teams **are big enough to have the roles as clearly separated as possible** (e.g. a big corporate environment). In smaller companies, the roles overlap, but having them divided in the table will help you understand how they combine together;
-* We assume that the knowledge of **Python** and **Git** is fundamental for everyone involved, so we don't include it in the table.
+* We assume that the knowledge of **Python** and **Git** is fundamental for everyone involved, so we don't include them in the table.
 
 | **Tech skills** / **Roles**                         | Data engineer | Analytics Engineer | Data Analyst | Data Scientist | ML Engineer | Cloud/DevOps Engineer | **Your team** |
 | --------------------------------------------------- | :-----------: | :----------------: | :----------: | :------------: | :---------: | :-------------------: | :-----------: |
@@ -88,7 +95,8 @@ The table is thought to be used as below:
 | Spark*                                              | ++            |                    | +            | ++             | ++          |                       |               |
 
 ## Example
-It sounds more complicated than it should, let's make an example to clarify. 
+With all those rules and those tables, this method **looks more complicated than it actually is**. Let's make a practical example to give you a feel of what you can do with this. 
+
 At our company X, we have a Data Engineering team. We want to increase capacity, so we decide to hire a new unit. 
 We want to use the skills table to help us have a better perspective on the hiring process.
 To do so, we copy the whole table, fill the column for our team, turn to bold the values in the columns that match, 
@@ -130,7 +138,15 @@ This means that:
 * I should look for a Data Engineer
 * The knowledge of Kafka is less available, but if someone has this knowledge it will be a Data Engineer, who will have a higher probability of also matching the other required skills
 * The knowledge of Kubernetes, CI/CD, and Golang will be rare to find combined with the other Data Engineering skills, and this makes it pretty hard to fill the position
-  * I may have to either compromise and pick someone who only partially fits the profile or who is less skilled, or reorganize the team - for instance adding a Cloud/DevOps Engineer to it
+* I may have to either compromise and pick someone who only partially fits the profile or who is less skilled, or reorganize the team - for instance adding a Cloud/DevOps Engineer to it
+
+There you are. Things look more clear now, don't they?
+
+## What's next?
+
+I hope this article will make it a bit easier to hire your next team member and to explain to others what you do. Please understand that this is on purpose a simplification of a very complex scenario. In case you would like to go deeper in detail, I would suggest [following Andreas Kretz on LinkedIn](https://www.linkedin.com/in/andreas-kretz/): for a funny turn of events, I found out he was working on something similar in the same week I started writing this. If you have opinions or suggestions, please [reach out on my LinkedIn page](https://www.linkedin.com/in/gnolo/). 
+
+Good luck with your search!
 
 # References
 * [DP-203 study guide](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4MbYT)
