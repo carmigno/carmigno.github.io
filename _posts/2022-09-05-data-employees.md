@@ -34,7 +34,7 @@ Let's have a look at the **negative consequences** that picking the **wrong labe
 Now that you can see why and how this can go very, very wrong, we can move on to fixing it.
 
 ## The role comparison table
-How are we going to address this issue? Using one of the oldest tricks from the engineering book, a **reference table**. 
+How are we going to address this issue? Using one of the oldest tricks from the engineering book, older even than a slide rule, a **reference table**. 
 
 The problems we want to solve here are three: 
 1. What is the **best description** of what my team currently does?
@@ -133,6 +133,10 @@ We can also see, though, that our team skills include several that are uncommon 
 * Familiarity with Golang (already uncommon by itself)
 
 Among the data engineering skills, Kafka (marked with ++) is considered rare. 
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Franz_Kafka%2C_1923.jpg/1920px-Franz_Kafka%2C_1923.jpg" style="zoom:15%;" />
+
+​																  *Kafka judging you for the state of your technical debt*
 
 This means that: 
 * I should look for a Data Engineer
