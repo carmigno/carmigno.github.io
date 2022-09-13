@@ -41,7 +41,7 @@ The problems we want to solve here are three:
 2. What are the **tech skills** that are available in my team but are **uncommon** among professionals with the same job description?
 3. If I hire someone with a specific job description, what can I expect them to be **familiar with**, and in what measure?
 
-The tech skills table is designed to help you with those pitfalls. In the first column, we present a list of **typical data-related technical skills**, and in the other columns, we show the level of the skill typically associated with a specific job title: `++` for deep knowledge or daily involvement, `+` basic knowledge or occasional involvement, and an empty spot for skills that are not related to that job title. We decided on purpose to go for symbols instead of more detailed descriptions, in order to minimize the complexity of the method.  
+The tech skills table is designed to help you with those pitfalls. In the first column, we present a list of **typical data-related technical skills**, and in the other columns, we show the level of the skill typically associated with a specific job title: `++` for deep knowledge or daily involvement, `+` basic knowledge or occasional involvement, and an empty spot for skills that are not related to that job title. We decided on purpose to go for symbols instead of more detailed descriptions, to minimize the complexity of the method.  
 
 We leave an empty column for you to fill with the level of skill of your team. 
 
@@ -61,38 +61,38 @@ The table is thought to be used as below:
 
 **Assumptions for the table**
 
-* We consider an environment in which the teams **are big enough to have the roles as clearly separated as possible** (e.g. a big corporate environment). In smaller companies, the roles overlap, but having them divided in the table will help you understand how they combine together;
+* We consider an environment in which the teams **are big enough to have the roles as clearly separated as possible** (e.g. a big corporate environment). In smaller companies, the roles overlap, but having them divided in the table will help you understand how they combine;
 * We assume that the knowledge of **Python** and **Git** is fundamental for everyone involved, so we don't include them in the table.
 
 | **Tech skills** / **Roles**                         | Data engineer | Analytics Engineer | Data Analyst | Data Scientist | ML Engineer | Cloud/DevOps Engineer | **Your team** |
 | --------------------------------------------------- | :-----------: | :----------------: | :----------: | :------------: | :---------: | :-------------------: | :-----------: |
-| AWS/Azure/GCP (General platform knowledge)          | ++            | +                  | +            | +              | +           | ++                    |               |
-| Bash                                                | +             |                    |              | +              | +           | ++                    |               |
-| Business knowledge                                  |               | +                  | ++           | +              | +           |                       |               |
-| CI/CD pipelines (GitHub, Gitlab, Concourse, ArgoCD) | +             |                    |              | +              | +           | ++                    |               |
-| Cloud data storage and infrastructure               | ++            |                    |              |                |             | +                     |               |
-| Dashboarding (Tableau/PowerBI)                      |               |                    | ++           | ++             | +           |                       |               |
-| Data modeling                                       | +             | +                  |              |                | +           |                       |               |
-| Data visualization                                  |               | +                  | ++           | ++             | +           |                       |               |
-| Dbt                                                 | +             | ++                 |              |                | +           |                       |               |
-| Deployment of ML models as webapps (R-Shiny, Flask) | +             |                    |              | +              | ++          |                       |               |
-| Docker                                              | +             |                    |              | +              | +           | ++                    |               |
-| ELT/ETL pipelines                                   | ++            | +                  |              | +              | +           |                       |               |
-| Exploratory data analysis                           |               | +                  |              | ++             | +           |                       |               |
-| Git (administration)                                | +             |                    |              |                |             | ++                    |               |
-| Golang*                                             |               |                    |              |                |             | +                     |               |
-| Hadoop*                                             | ++            |                    |              | +              | +           |                       |               |
-| Implementation of business rules in SQL             | +             | ++                 | ++           | +              | +           |                       |               |
-| Infrastructure as code (Terraform/Ansible/Chef)     | +             |                    |              |                |             | ++                    |               |
-| Kafka/Data Streaming*                               | ++            |                    |              | +              | +           |                       |               |
-| Kubernetes                                          |               |                    |              |                |             | ++                    |               |
-| Machine Learning Models                             | +             |                    |              | ++             | ++          |                       |               |
-| Pandas/Numpy                                        | +             | +                  | ++           | ++             | ++          |                       |               |
-| Reporting                                           |               |                    | ++           | +              | +           |                       |               |
-| SQL                                                 | ++            | ++                 | ++           | +              | +           |                       |               |
-| Scala*                                              | ++            |                    |              | +              | +           |                       |               |
-| Snowflake/DWH                                       | +             | ++                 | +            | +              | +           |                       |               |
-| Spark*                                              | ++            |                    | +            | ++             | ++          |                       |               |
+| AWS/Azure/GCP (General platform knowledge)          |      ++       |         +          |      +       |       +        |      +      |          ++           |               |
+| Bash                                                |       +       |                    |              |       +        |      +      |          ++           |               |
+| Business knowledge                                  |               |         +          |      ++      |       +        |      +      |                       |               |
+| CI/CD pipelines (GitHub, Gitlab, Concourse, ArgoCD) |       +       |                    |              |       +        |      +      |          ++           |               |
+| Cloud storage solutions                             |      ++       |                    |              |                |             |           +           |               |
+| Cloud infrastructure                                |       +       |                    |              |                |             |          ++           |               |
+| Dashboarding (Tableau/PowerBI) / Data Visualization |               |                    |      ++      |       ++       |      +      |                       |               |
+| Data modeling                                       |       +       |         ++         |              |                |      +      |                       |               |
+| Dbt                                                 |       +       |         ++         |              |                |      +      |                       |               |
+| Deployment of ML models as webapps (R-Shiny, Flask) |       +       |                    |              |       +        |     ++      |                       |               |
+| Docker                                              |       +       |                    |              |       +        |      +      |          ++           |               |
+| ELT/ETL pipelines                                   |      ++       |         +          |              |       +        |      +      |                       |               |
+| Exploratory data analysis                           |               |         +          |              |       ++       |      +      |                       |               |
+| Git (administration)                                |       +       |                    |              |                |             |          ++           |               |
+| Golang*                                             |               |                    |              |                |             |           +           |               |
+| Hadoop*                                             |      ++       |                    |              |       +        |      +      |                       |               |
+| Implementation of business rules in SQL             |       +       |         ++         |      ++      |       +        |      +      |                       |               |
+| Infrastructure as code (Terraform/Ansible/Chef)     |       +       |                    |              |                |             |          ++           |               |
+| Kafka/Data Streaming*                               |      ++       |                    |              |       +        |      +      |                       |               |
+| Kubernetes                                          |               |                    |              |                |             |          ++           |               |
+| Machine Learning Models                             |       +       |                    |              |       ++       |     ++      |                       |               |
+| Pandas/Numpy                                        |       +       |         +          |      ++      |       ++       |     ++      |                       |               |
+| Reporting                                           |               |                    |      ++      |       +        |      +      |                       |               |
+| SQL                                                 |      ++       |         ++         |      ++      |       +        |      +      |                       |               |
+| Scala*                                              |      ++       |                    |              |       +        |      +      |                       |               |
+| Snowflake/DWH                                       |       +       |         ++         |      +       |       +        |      +      |                       |               |
+| Spark                                               |      ++       |                    |      +       |       ++       |     ++      |                       |               |
 
 ## Example
 With all those rules and those tables, this method **looks more complicated than it actually is**. Let's make a practical example to give you a feel of what you can do with this. 
@@ -104,21 +104,22 @@ then sort the rows by the team column's content, descending:
 
 | **Skills** / **Roles**                              | Data Engineer | Analytics Engineer | Data Analyst | Data Scientist | ML Engineer | Cloud/DevOps Engineer | **Your Team** |
 | --------------------------------------------------- | :-----------: | :----------------: | :----------: | :------------: | :---------: | :-------------------: | :-----------: |
-| CI/CD pipelines (GitHub, Gitlab, Concourse, ArgoCD) | +             |                    |              | +              | +           | **++**                | ++            |
-| Infrastructure as code (Terraform/Ansible/Chef)     | +             |                    |              |                |             | **++**                | ++            |
-| AWS/Azure/GCP (General platform knowledge)          | **++**        |                    | +            |                | +           | **++**                | ++            |
-| Cloud data storage and infrastructure               | **++**        |                    |              |                |             | +                     | ++            |
-| Kafka/Data Streaming*                               | **++**        |                    |              | +              | +           |                       | ++            |
-| Kubernetes                                          |               |                    |              |                |             | **++**                | ++            |
-| ELT/ETL pipelines                                   | ++            | **+**              |              | **+**          | **+**       |                       | +             |
-| Bash                                                | **+**         |                    |              | **+**          | **+**       | **+**                 | +             |
-| Dbt                                                 | **+**         | ++                 |              |                | **+**       |                       | +             |
-| Docker                                              | **+**         |                    |              | **+**          | **+**       | **+**                 | +             |
-| Git (administration)                                | **+**         |                    |              |                |             | ++                    | +             |
-| SQL                                                 | **+**         | ++                 | ++           | **+**          | **+**       |                       | +             |
-| Snowflake/DWH                                       | **+**         | ++                 | **+**        | **+**          | **+**       |                       | +             |
-| Spark*                                              | **+**         |                    | **+**        | ++             | ++          |                       | +             |
-| Golang*                                             |               |                    |              |                |             | **+**                 | +             |
+| CI/CD pipelines (GitHub, Gitlab, Concourse, ArgoCD) |       +       |                    |              |       +        |      +      |        **++**         |      ++       |
+| Infrastructure as code (Terraform/Ansible/Chef)     |       +       |                    |              |                |             |        **++**         |      ++       |
+| AWS/Azure/GCP (General platform knowledge)          |    **++**     |                    |      +       |                |      +      |        **++**         |      ++       |
+| Cloud storage solutions                             |    **++**     |                    |              |                |             |           +           |      ++       |
+| Cloud infrastructure                                |     **+**     |                    |              |                |             |          ++           |       +       |
+| Kafka/Data Streaming*                               |    **++**     |                    |              |       +        |      +      |                       |      ++       |
+| Kubernetes                                          |               |                    |              |                |             |        **++**         |      ++       |
+| ELT/ETL pipelines                                   |      ++       |       **+**        |              |     **+**      |    **+**    |                       |       +       |
+| Bash                                                |     **+**     |                    |              |     **+**      |    **+**    |         **+**         |       +       |
+| Dbt                                                 |     **+**     |         ++         |              |                |    **+**    |                       |       +       |
+| Docker                                              |     **+**     |                    |              |     **+**      |    **+**    |         **+**         |       +       |
+| Git (administration)                                |     **+**     |                    |              |                |             |          ++           |       +       |
+| SQL                                                 |     **+**     |         ++         |      ++      |     **+**      |    **+**    |                       |       +       |
+| Snowflake/DWH                                       |     **+**     |         ++         |    **+**     |     **+**      |    **+**    |                       |       +       |
+| Spark                                               |     **+**     |                    |    **+**     |       ++       |     ++      |                       |       +       |
+| Golang*                                             |               |                    |              |                |             |         **+**         |       +       |
 
 You can immediately see a problem here: our team is between Data Engineering and Cloud/DevOps Engineering. Which one should we pick? 
 
