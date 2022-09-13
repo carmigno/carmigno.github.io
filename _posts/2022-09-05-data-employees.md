@@ -24,7 +24,7 @@ Let's have a look at the **negative consequences** that picking the **wrong labe
 * Trying to recruit a new member, both you and the recruiter will receive many job **applications that don't fit your needs** and will struggle to find anyone to fill the position
     *This wastes time from both sides and deteriorates the relationship between the hiring manager and the recruiter*
 * If you don't know what is the **rarest skill** for that job description, you will not give it the right weight when picking a new recruit
-    *If you need and manage to find a Data Engineer who knows Kubernetes, maybe you should think twice before letting them know*
+    *If you need, and manage to find, a Data Engineer who knows Kubernetes, maybe you should think twice before letting them go*
 * The probability to **hire the wrong person** will be higher
     *They may find out the job was not what they expected and leave after an expensive recruiting and onboarding process. Or they may stay and opt for silent quitting.*
 * Other **teams will not understand** clearly what are the responsibilities of your team and what they can expect from them
@@ -62,7 +62,7 @@ The table is thought to be used as below:
 **Assumptions for the table**
 
 * We consider an environment in which the teams **are big enough to have the roles as clearly separated as possible** (e.g. a big corporate environment). In smaller companies, the roles overlap, but having them divided in the table will help you understand how they combine;
-* We assume that the knowledge of **Python** and **Git** is fundamental for everyone involved, so we don't include them in the table.
+* We assume that the basic knowledge of **Python** and **Git** is fundamental for everyone involved, so we don't include them in the table.
 
 | **Tech skills** / **Roles**                         | Data engineer | Analytics Engineer | Data Analyst | Data Scientist | ML Engineer | Cloud/DevOps Engineer | **Your team** |
 | --------------------------------------------------- | :-----------: | :----------------: | :----------: | :------------: | :---------: | :-------------------: | :-----------: |
@@ -121,7 +121,7 @@ then sort the rows by the team column's content, descending:
 | Spark                                               |     **+**     |                    |    **+**     |       ++       |     ++      |                       |       +       |
 | Golang*                                             |               |                    |              |                |             |         **+**         |       +       |
 
-You can immediately see a problem here: our team is between Data Engineering and Cloud/DevOps Engineering. Which one should we pick? 
+You can immediately see a problem here: our team shares competencies with both Data Engineering and Cloud/DevOps Engineering. Which one should we pick? 
 
 We deliberately don't establish a numeric rule to decide: this is a tool to give a clearer perspective on the situation, and it cannot substitute the hiring manager in making this decision.
 
