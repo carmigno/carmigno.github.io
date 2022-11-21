@@ -1,0 +1,29 @@
+| **Tech skills** / **Roles**                         | Data engineer | Analytics Engineer | Data Analyst | Data Scientist | ML Engineer | Cloud/DevOps Engineer | **Your team** |
+| --------------------------------------------------- | :-----------: | :----------------: | :----------: | :------------: | :---------: | :-------------------: | :-----------: |
+| AWS/Azure/GCP (General platform knowledge)          |      ++       |         +          |      +       |       +        |      +      |          ++           |               |
+| Bash                                                |       +       |                    |              |       +        |      +      |          ++           |               |
+| Business knowledge                                  |               |         +          |      ++      |       +        |      +      |                       |               |
+| CI/CD pipelines (GitHub, Gitlab, Concourse, ArgoCD) |       +       |                    |              |       +        |      +      |          ++           |               |
+| Cloud storage solutions                             |      ++       |                    |              |                |             |           +           |               |
+| Cloud infrastructure                                |       +       |                    |              |                |             |          ++           |               |
+| Dashboarding (Tableau/PowerBI) / Data Visualization |               |                    |      ++      |       ++       |      +      |                       |               |
+| Data modeling                                       |       +       |         ++         |              |                |      +      |                       |               |
+| Dbt                                                 |       +       |         ++         |              |                |      +      |                       |               |
+| Deployment of ML models as webapps (R-Shiny, Flask) |       +       |                    |              |       +        |     ++      |                       |               |
+| Docker                                              |       +       |                    |              |       +        |      +      |          ++           |               |
+| ELT/ETL pipelines                                   |      ++       |         +          |              |       +        |      +      |                       |               |
+| Exploratory data analysis                           |               |         +          |              |       ++       |      +      |                       |               |
+| Git (administration)                                |       +       |                    |              |                |             |          ++           |               |
+| Golang*                                             |               |                    |              |                |             |           +           |               |
+| Hadoop*                                             |      ++       |                    |              |       +        |      +      |                       |               |
+| Implementation of business rules in SQL             |       +       |         ++         |      ++      |       +        |      +      |                       |               |
+| Infrastructure as code (Terraform/Ansible/Chef)     |       +       |                    |              |                |             |          ++           |               |
+| Kafka/Data Streaming*                               |      ++       |                    |              |       +        |      +      |                       |               |
+| Kubernetes                                          |               |                    |              |                |             |          ++           |               |
+| Machine Learning Models                             |       +       |                    |              |       ++       |     ++      |                       |               |
+| Pandas/Numpy                                        |       +       |         +          |      ++      |       ++       |     ++      |                       |               |
+| Reporting                                           |               |                    |      ++      |       +        |      +      |                       |               |
+| SQL                                                 |      ++       |         ++         |      ++      |       +        |      +      |                       |               |
+| Scala*                                              |      ++       |                    |              |       +        |      +      |                       |               |
+| Snowflake/DWH                                       |       +       |         ++         |      +       |       +        |      +      |                       |               |
+| Spark                                               |      ++       |                    |      +       |       ++       |     ++      |                       |               |
